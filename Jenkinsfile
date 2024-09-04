@@ -1,11 +1,11 @@
 pipeline {
     
-    agent { 
-        node{
-            label "dev"
+    // agent { 
+    //     node{
+    //         label "dev"
             
-        }
-    }
+    //     }
+    // }
     
     stages{
         stage("Clone Code"){
